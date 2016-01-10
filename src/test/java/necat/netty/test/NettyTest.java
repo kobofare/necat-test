@@ -10,9 +10,9 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import necat.base.BaseTest;
-import necat.netty.base.EchoClientHandler;
-import necat.netty.base.EchoServerHandler;
+import necat.netty.handler.EchoClientHandler;
+import necat.netty.handler.EchoServerHandler;
+import necat.test.base.BaseTest;
 
 import org.junit.Test;
 
